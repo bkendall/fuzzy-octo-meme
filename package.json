@@ -1,0 +1,26 @@
+{
+  "name": "fuzzy-octo-meme",
+  "version": "0.0.0",
+  "description": "a sample github oauth2 flow application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkendall/fuzzy-octo-meme.git"
+  },
+  "author": "Bryan Kendall <bryan@bryankendall.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkendall/fuzzy-octo-meme/issues"
+  },
+  "homepage": "https://github.com/bkendall/fuzzy-octo-meme#readme",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "express-session": "^1.11.3",
+    "passport": "^0.2.2",
+    "passport-github": "^0.1.5"
+  }
+}
