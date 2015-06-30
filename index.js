@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 passport.use(new GithubStrategy({
   clientID: process.env.FOM_CLIENT_ID,
   clientSecret: process.env.FOM_CLIENT_SECRET,
-  callbackUrl: 'https://fuzzy-octo-meme-staging-bkendall.runnableapp.com/auth/github/callback'
+  callbackUrl: process.env.FOM_CALLBACK_URL
 }, function (accessToken, refreshToken, profile, done) {
   console.log('here is what we got back', arguments);
   done();
